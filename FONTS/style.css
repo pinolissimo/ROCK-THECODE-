@@ -1,0 +1,47 @@
+/* 
+Rock{The Code} Giuseppe Allocca 2023
+*/
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Borel&family=Inter:wght@700&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,900&family=Rubik+Vinyl&display=swap");
+* {
+  font-family: "Roboto Serif", serif;
+}
+@font-face {
+  src: url("./bergdool-cufonfonts/Bergdool-w1EmZ.ttf");
+  font-family: "Bergdool";
+  font-weight: normal;
+  font-style: normal;
+}
+p {
+  text-align: justify;
+}
+body {
+  width: 90%;
+  min-width: 480px;
+  max-width: 1024px;
+  margin: auto;
+  padding: 10px;
+}
+
+h2 {
+  font-family: Bergdool;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 100;
+}
+h1 {
+  font-family: Bergdool;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 100;
+}
+.centerelement {
+  text-align: center;
+}
+#images {
+  width: 90%;
+  justify-items: auto;
+  display: flex;
+}
+#images img {
+  width: 50%;
+}
