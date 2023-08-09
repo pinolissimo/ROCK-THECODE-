@@ -1,0 +1,43 @@
+/* Reset CSS */
+
+/* Imposta i margini e i padding a 0 per tutti gli elementi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Imposta il font-size a 100% per il body */
+  body {
+    font-size: 100%;
+  }
+  
+  /* Imposta il line-height a 1 per il body */
+  body {
+    line-height: 1;
+  }
+  
+  /* Imposta il display a block per gli elementi di sezione HTML5 */
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  
+  /* Imposta il font a inherit per tutti gli elementi */
+  * {
+    font: inherit;
+  }
+  
+  /* Imposta il vertical-align a baseline per tutti gli elementi */
+  * {
+    vertical-align: baseline;
+  }
+  
+  /* Imposta il list-style-type a none per gli elenchi */
+  ol, ul {
+    list-style-type: none;
+  }
+  
+  /* Imposta il testo senza decorazioni per tutti gli elementi */
+  * {
+    text-decoration: none;
+  }
