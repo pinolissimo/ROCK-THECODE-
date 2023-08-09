@@ -1,0 +1,75 @@
+/* 
+Rock{The Code} Giuseppe Allocca 2023
+*/
+body {
+  /*  min-width: 726px;
+  max-width: 920px; */
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: #000;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+.borderound {
+  border: solid 2px black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container {
+  /* per vedere i container dei div
+background: white;
+*/
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-items: center;
+  border: solid 2px black;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+  height: 100%;
+  justify-content: space-between;
+}
+
+div.container img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+div.container img:hover {
+background: yellow;
+  }
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: tomato;
+}
+p {
+  padding: 10px;
+  margin: 5px;
+  text-align: justify;
+}
+
+div.container img.img20 {
+  width: 10%;
+}
+h3 {
+  color: white;
+}
